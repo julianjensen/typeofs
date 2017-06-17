@@ -5,6 +5,26 @@ Types and Names
 
 This will provide more useful types or names from any JavaScript value.
 
+## Usage
+For just the `type()` function
+```js
+const { type } = require( 'typeofs' );
+
+console.log( type( 5 ) ); // => 'number'
+```
+or if you want more functionality
+```js
+const 
+    { type, name, nameOf } = require( 'typeofs' ),
+    myFunc = function() { return arguments; };
+
+console.log( type( myFunc ) ); // => 'function'
+console.log( name( myFunc ) ); // => 'myfunc'
+console.log( nameOf( myFunc ) ); // => 'myFunc'
+console.log( type( myFunc() ) ); // => 'arguments'
+console.log( name( myFunc() ) ); // => 'Arguments'
+```
+Here is a list of examples that should cover most types and names.
 
 
 
