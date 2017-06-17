@@ -196,3 +196,56 @@ function type( obj )
 module.exports = {
     nameOf, name, type, isInstance, isClass, isAsync, isGenerator, functionInfo, infoOf, isFunctionInstance
 };
+
+// if ( require.main === module )
+// {
+//     const
+//         tests = `null,
+//         undefined,
+//         'foo',
+//                 5,
+//                 false, /^yes/,
+//                 [ foo, "bar" ],
+//                 { hello: 'world' }, function() {},
+//                     String( 'foo' ), Number( '42' ), Boolean( '1' ), new Date(),
+//                     new RegExp( '^no','g' ),
+//                     new Array(), new Object(),
+//                     Object.create( null ),
+//                     new Function( 'x','y','return x + y' ),
+//                     new Error( 'error' ),
+//                     new TypeError( 'type error' ),
+//                     Error, TypeError, NaN, Infinity,
+//                     Math,
+//                     JSON,
+//                     ( function() { return arguments; } )(), Symbol( 'foo' ), Promise.resolve( 1 ),
+//                     Promise, class TestClass {},
+//                     new Person( 'alice', 5 ),
+//                     new AnonPerson( 'bob', 4 ),
+//                     new ( class Foo { constructor() {} } ),
+//                     new ( class { constructor() {} } ),
+//                     classVar, anonClass, function * gen() {}`,
+//
+//         types = [ 'null', 'undefined', 'string', 'number', 'boolean', 'object', 'array', 'object', 'function',
+//                     'string', 'number', 'boolean', 'object', 'object', 'array', 'object',
+//                     'object', 'function', 'object', 'object',
+//                     'function', 'function', 'number', 'number', 'object', 'object', 'object', 'symbol', 'object',
+//                     'function', 'function', 'object', 'object', 'object', 'object', 'function', 'function', 'function' ],
+//         names = [ 'null', 'undefined', 'string',    'number', 'boolean', 'regexp',  'array', 'object', 'function',
+//                     'string', 'number', 'boolean',  'date', 'regexp', 'array',  'object',
+//                     'object', 'anonymous', 'error', 'typeerror',
+//                     'error', 'typeerror', 'nan', 'number', 'math', 'json', 'arguments', 'symbol', 'promise',
+//                     'promise', 'testclass', 'person', 'anonperson', 'foo', 'object',
+//                     'named', 'anonclass', 'gen' ],
+//         namesUc = [ 'null', 'undefined', 'String',    'Number', 'Boolean', 'RegExp',  'Array', 'Object', 'Function',
+//                     'String', 'Number', 'Boolean',  'Date', 'RegExp', 'Array',  'Object',
+//                     'Object', 'anonymous', 'Error', 'TypeError',
+//                     'Error', 'TypeError', 'NaN', 'Number', 'Math', 'JSON', 'Arguments', 'Symbol', 'Promise',
+//                     'Promise', 'TestClass', 'Person', 'AnonPerson', 'Foo', 'Object',
+//                     'Named', 'anonClass', 'gen' ];
+//
+//     console.log( "| Value | `type()` | `name()` | `nameOf()` |" );
+//     console.log( "| :--- | :--- | :--- | :--- |" );
+//     tests.split( /(?:\r?\n)|(?:,|\r?\n)\s+(?=[a-z['{/])/i ).forEach( ( testStr, i ) => {
+//         console.log( `| ${testStr.trim()} | ${types[ i ]} | ${names[ i ]} | ${namesUc[ i ]} |` );
+//     } );
+// }
