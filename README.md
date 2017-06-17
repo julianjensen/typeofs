@@ -124,7 +124,7 @@ to the functions listed above, if applicable and truthy.
 [snyk-image]: https://snyk.io/test/github/julianjensen/typeofs/badge.svg
 [travis-image]: http://img.shields.io/travis/julianjensen/typeofs.svg
 [license-url]: https://github.com/julianjensen/typeofs/blob/master/LICENSE
-[coveralls-image]: https://coveralls.io/repos/github/julianjensen/typeofs/badge.svg?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/julianjensen/typeofs/badge.png?branch=master
 [depstat-url]: https://gemnasium.com/github.com/julianjensen/typeofs
 [depstat-image]: https://gemnasium.com/badges/github.com/julianjensen/typeofs.svg
 [npm-image]: https://badge.fury.io/js/typeofs.svg
