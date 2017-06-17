@@ -1,0 +1,24 @@
+{
+    "name": "typeofs",
+    "version": "1.0.0",
+    "description": "A module for getting more useful type names as well as actual names, when available.",
+    "main": "index.js",
+    "scripts": {
+        "test": "istanbul cover node_modules/mocha/bin/_mocha -- ./test/",
+        "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    },
+    "author": {
+        "name": "Julian Jensen",
+        "email": "julian@exploreplanet3.com"
+    },
+    "repository": "https://github.com/julianjensen/typeofs.git",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^4.0.2",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.4.2",
+        "coveralls": "^2.13.1",
+        "mocha-lcov-reporter": "^1.3.0"
+    }
+}
