@@ -2,6 +2,7 @@ Types and Names
 ===============
 
 [![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url]  [![Dependency Status][depstat-image]][depstat-url] [![npm version][npm-image]][npm-url] [![License][license-image]][license-url] [![Known Vulnerabilities][snyk-image]][snyk-url]
+[![Codacy Badge][codacy-url]][codacy-image]
 
 This will provide more useful types or names from any JavaScript value.
 
@@ -124,8 +125,10 @@ to the functions listed above, if applicable and truthy.
 [snyk-image]: https://snyk.io/test/github/julianjensen/typeofs/badge.svg
 [travis-image]: http://img.shields.io/travis/julianjensen/typeofs.svg
 [license-url]: https://github.com/julianjensen/typeofs/blob/master/LICENSE
-[coveralls-image]: https://coveralls.io/repos/github/julianjensen/typeofs/badge.png?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/julianjensen/typeofs/badge.svg?branch=master
 [depstat-url]: https://gemnasium.com/github.com/julianjensen/typeofs
 [depstat-image]: https://gemnasium.com/badges/github.com/julianjensen/typeofs.svg
 [npm-image]: https://badge.fury.io/js/typeofs.svg
 [npm-url]: https://badge.fury.io/js/typeofs
+[codacy-url]: https://api.codacy.com/project/badge/Grade/807c9c7f10d447d699711e1427fe68ca
+[codacy-image]: https://www.codacy.com/app/julianjensen/typeofs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=julianjensen/typeofs&amp;utm_campaign=Badge_Grade

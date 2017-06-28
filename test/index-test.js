@@ -6,13 +6,6 @@
 'use strict';
 // @formatter:off
 
-const
-    object = o => typeof o === 'object' && !Array.isArray( o ),
-    _inspect = require( 'util' ).inspect,
-    inspect = ( o, d ) => _inspect( o, typeof d === 'number' ? { depth: d } : object( d ) ? d : {} );
-
-_inspect.defaultOptions = { depth: 4, colors: true };
-
 /**
  * @param {String} name
  * @param {Number} age
