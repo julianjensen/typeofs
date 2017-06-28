@@ -2,7 +2,9 @@ Types and Names
 ===============
 
 [![Coveralls Status][coveralls-image]][coveralls-url] [![Build Status][travis-image]][travis-url]  [![Dependency Status][depstat-image]][depstat-url] [![npm version][npm-image]][npm-url] [![License][license-image]][license-url] [![Known Vulnerabilities][snyk-image]][snyk-url]
-[![Codacy Badge][codacy-url]][codacy-image]
+[![Codacy Badge][codacy-image]][codacy-url]
+[![david-dm Badge][david-dm-image]][david-dm-url]
+[![bitHound Code][bithound-image]][bithound-url]
 
 This will provide more useful types or names from any JavaScript value.
 
@@ -130,5 +132,9 @@ to the functions listed above, if applicable and truthy.
 [depstat-image]: https://gemnasium.com/badges/github.com/julianjensen/typeofs.svg
 [npm-image]: https://badge.fury.io/js/typeofs.svg
 [npm-url]: https://badge.fury.io/js/typeofs
-[codacy-url]: https://api.codacy.com/project/badge/Grade/807c9c7f10d447d699711e1427fe68ca
-[codacy-image]: https://www.codacy.com/app/julianjensen/typeofs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=julianjensen/typeofs&amp;utm_campaign=Badge_Grade
+[codacy-url]: https://www.codacy.com/app/julianjensen/typeofs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=julianjensen/typeofs&amp;utm_campaign=Badge_Grade
+[codacy-image]: https://api.codacy.com/project/badge/Grade/807c9c7f10d447d699711e1427fe68ca
+[david-dm-image]: https://david-dm.org/julianjensen/typeofs.svg
+[david-dm-url]: https://david-dm.org/julianjensen/typeofs
+[bithound-image]: https://www.bithound.io/github/julianjensen/typeofs/badges/code.svg
+[bithound-url]: https://www.bithound.io/github/julianjensen/typeofs
