@@ -5,6 +5,7 @@ Types and Names
 [![Codacy Badge][codacy-image]][codacy-url]
 [![david-dm Badge][david-dm-image]][david-dm-url]
 [![bitHound Code][bithound-image]][bithound-url]
+[![Code Climate][codeclimate-image]][codeclimate-url]
 
 This will provide more useful types or names from any JavaScript value.
 
@@ -138,3 +139,5 @@ to the functions listed above, if applicable and truthy.
 [david-dm-url]: https://david-dm.org/julianjensen/typeofs
 [bithound-image]: https://www.bithound.io/github/julianjensen/typeofs/badges/code.svg
 [bithound-url]: https://www.bithound.io/github/julianjensen/typeofs
+[codeclimate-image]: https://codeclimate.com/github/julianjensen/typeofs/badges/gpa.svg
+[codeclimate-url]: https://codeclimate.com/github/julianjensen/typeofs
